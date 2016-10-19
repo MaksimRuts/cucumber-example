@@ -10,7 +10,12 @@ repositories {
 }
 
 dependencies {
+    compile('org.springframework:spring-context:4.3.3.RELEASE')
+    compile('org.springframework:spring-test:4.3.3.RELEASE')
+
     testCompile('info.cukes:cucumber-java:1.2.5')
+    testCompile('info.cukes:cucumber-core:1.2.5')
+    testCompile('info.cukes:cucumber-spring:1.2.5')
     testCompile('info.cukes:cucumber-junit:1.2.5')
     testCompile('junit:junit:4.12')
 }
