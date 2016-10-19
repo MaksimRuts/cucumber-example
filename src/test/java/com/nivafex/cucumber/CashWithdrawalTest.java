@@ -11,7 +11,7 @@ import org.springframework.test.context.ContextConfiguration;
  * Created by Maksim Ruts on 10/19/2016.
  */
 @ContextConfiguration(classes = BankConfiguration.class)
-public class CucumberTest {
+public class CashWithdrawalTest {
     @Autowired
     private BankFactory bankFactory;
 
