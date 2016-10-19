@@ -14,7 +14,7 @@ public class Bank {
         return cash;
     }
 
-    public void withdraw(double val) {
-        cash -= val;
+    public void withdraw(double amount) {
+        this.cash -= amount;
     }
 }
